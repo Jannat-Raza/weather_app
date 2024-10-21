@@ -8,6 +8,18 @@ def get_weather(city):
     response = requests.get(url)
     return response.json()
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: black;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Title of the app
 st.title("Weather App")
 
