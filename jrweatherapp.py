@@ -12,7 +12,7 @@ st.markdown(
     <style>
     .stApp {
         background-color: lightgray;
-        color: white;
+        color: brown;
     }
     .title {
         color: white;
