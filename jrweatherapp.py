@@ -9,7 +9,9 @@ def get_weather(city):
     return response.json()
 
 # Title of the app
-st.title("Simple Weather App")
+st.title("Weather App")
+
+st.subheader("Get the current weather information for any city!")
 
 # Input for city name
 city = st.text_input("Enter city name")
